@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F9E6E5;
+}
+
+header {
+    background-color: #E0D6EF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 80px;
+    width: 80px; /* Increase the height */
+    width: auto;  /* Maintain aspect ratio */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #A35476;
+    font-weight: bold;
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-container {
+    background-color: #EDD3E9;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #5784BD;
+    font-family: 'Itim', cursive;
+}
+
+input {
+    padding: 10px; /* Augmente l'espace intérieur */
+    border: 1px solid #D58FE7;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #F3E0F7;
+    font-family: 'Instrument Serif', serif;
+    width: 300px; /* Augmente la largeur */
+    height: 30px; /* Augmente la hauteur */
+}
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #D58FE7;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+    background-color: #A35476;
+}
