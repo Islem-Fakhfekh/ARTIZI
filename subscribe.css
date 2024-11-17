@@ -76,7 +76,7 @@ label {
     color: #5784BD;
 }
 
-input, select {
+input[type="text"], input[type="password"], input[type="date"] {
     padding: 10px;
     border: 1px solid #D58FE7;
     border-radius: 5px;
@@ -89,7 +89,7 @@ input, select {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .date-picker input[type="date"] {
@@ -98,7 +98,7 @@ input, select {
 
 .date-picker i {
     position: absolute;
-    right: 20px;
+    right: 10px;
     color: #A35476;
     font-size: 1.2em;
     pointer-events: none;
