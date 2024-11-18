@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
-    padding: 15px 30px;
+    padding: 5px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -52,16 +52,20 @@ main {
     align-items: center;
     min-height: 100vh;
     padding: 20px;
+    margin-top: 5px;
 }
 
 .cart-container {
+    position:center;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: #EDD3E9;
-    padding: 40px; /* Ajustez le padding si nécessaire */
+    padding: 90px; /* Ajustez le padding si nécessaire */
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 300px; /* Largeur fixe pour un carré */
-    height: 300px; /* Hauteur fixe pour un carré */
+    width: 400px; /* Largeur fixe pour un carré */
+    height: 400px; /* Hauteur fixe pour un carré */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -71,13 +75,14 @@ main {
 }
 
 .cart-icon {
-    font-size: 100px; /* Ajustez la taille de l'icône si nécessaire */
+    font-size: 200px; /* Ajustez la taille de l'icône si nécessaire */
     color: #5784BD;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .cost {
-    margin-top: 20px; /* Ajustez si nécessaire */
+    margin-top: 30px; 
+    margin-bottom: 40px;/* Ajustez si nécessaire */
 }
 
 .cost input {

@@ -101,6 +101,7 @@ button {
     background-color: #D58FE7;
     color: white;
     font-size: 1em;
+    width: 200px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
 }
@@ -108,3 +109,15 @@ button {
 button:hover {
     background-color: #A35476; /* Dark pink on hover */
 }
+/* Styling for the parent container */
+.checkbox {
+    font-family: 'Inter', sans-serif;
+    font-size: 8px; /* Adjust font size for compactness */
+    color: #6C4971; /* Soft purple for text */
+    display: flex; /* Aligns checkbox and text horizontally */
+    align-items:self-start; /* Vertically aligns text with the checkbox */
+    margin: 10px 0; 
+    height:2px;
+    height:2px;/* Add space around the paragraph */
+}
+
