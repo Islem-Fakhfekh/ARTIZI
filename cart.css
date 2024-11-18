@@ -60,8 +60,8 @@ main {
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 600px; /* Largeur fixe pour un carré */
-    height: 600px; /* Hauteur fixe pour un carré */
+    width: 300px; /* Largeur fixe pour un carré */
+    height: 300px; /* Hauteur fixe pour un carré */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -71,13 +71,13 @@ main {
 }
 
 .cart-icon {
-    font-size: 200px; /* Ajustez la taille de l'icône si nécessaire */
+    font-size: 100px; /* Ajustez la taille de l'icône si nécessaire */
     color: #5784BD;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .cost {
-    margin-top: 50px; /* Ajustez si nécessaire */
+    margin-top: 20px; /* Ajustez si nécessaire */
 }
 
 .cost input {
