@@ -115,3 +115,41 @@ main h1 {
 .order-button button:hover {
     background-color: #91568B;
 }
+div.footer{
+    margin-top: 13%;
+    padding-top: 2%;
+    margin-bottom: 0%;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 0px; /* Espacement interne */
+    background-color: #E0D6EF; /* Couleur de fond */
+    color: #A35476; /* Couleur du texte */
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+/* Sections du footer */
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1; /* Chaque section prend le même espace */
+    text-align: center; /* Centrage horizontal */
+}
+
+/* Alignement spécifique */
+.footer-left {
+    text-align: left; /* Aligne à gauche */
+    color:#A35476;
+    padding-left: 40px;
+    
+}
+
+.footer-right {
+    text-align: right; /* Aligne à droite */
+    padding-right: 40px;
+}
+
